@@ -10,7 +10,7 @@ var c;
 
 alert('Let’s make a story together!');
 
-color = prompt('A color (orange, indigo, etc.)');
+color = prompt('A colour (orange, indigo, etc.)');
 creature = prompt('A creature (dragon, moth, etc.)');
 adjective = prompt('An adjective (beautiful, super, etc.)');
 verb = prompt('A past tense verb (ran, burped, etc.)');
