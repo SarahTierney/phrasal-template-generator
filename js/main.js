@@ -6,11 +6,11 @@ var story;
 
 alert('Lets make a story together!');
 
-color = promt('A colour (orange, indigo, etc.)')
-creature = promt('A creature (dragon, moth, etc.)')
-adjective = promt('An adjective (beautiful, super, etc.)')
-verb = promt('A past tense verb (ran, burped, etc.)')
-story = promt('Which story would you like? \nEnter the letter below: \na) Snacking \nb) Escaping \nc) Winning')
+color = prompt('A colour (orange, indigo, etc.)')
+creature = prompt('A creature (dragon, moth, etc.)')
+adjective = prompt('An adjective (beautiful, super, etc.)')
+verb = prompt('A past tense verb (ran, burped, etc.)')
+story = prompt('Which story would you like? \nEnter the letter below: \na) Snacking \nb) Escaping \nc) Winning')
 
 a = function () {
   document.write('After snacking on ' + adjective + ' treats, the ' + colour + ' bellied ' + creature + ' ' + verbed + ' for hours.');
